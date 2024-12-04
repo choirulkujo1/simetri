@@ -19,6 +19,13 @@ ul {
   gap: 64px;
 }
 
+.title {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+}
+
+
+
 .containerHero {
   display: flex;
   flex-direction: column;
@@ -32,6 +39,16 @@ ul {
   width: 100%;
   height: 100%;
   overflow: hidden;
+}
+
+.choirul {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+}
+
+.subtitle {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
 }
 
 img {

@@ -17,11 +17,11 @@
   </head>
   <body>
     <nav class="justify-center md:justify-between">
-      <h1>Choirul Anam</h1>
+      <h1 class="choirul">Choirul Anam</h1>
       <ul class="hidden md:flex">
-        <li>About Me</li>
-        <li>Works</li>
-        <li>Contacts</li>
+        <li><a href="#about-me">About Me</a></li>
+        <li><a href="#latest-work">Works</a></li>
+        <li><a href="#contact">Contacts</a></li>
       </ul>
     </nav>
     <div class="containerHero" data-aos="fade-up">
@@ -38,10 +38,11 @@
     </div>
 
     <!-- about us  -->
+  <section id="about-me">
     <div
       data-aos="fade-up"
       class="flex px-8 py-16 lg:px-[133px] flex-col lg:flex-row gap-24 justify-center items-center"
-    >
+      >
       <img src="/assets/imagee.jpg" class="w-full h-auto lg:w-96 lg:h-96" />
       <div class="flex flex-col">
         <h2 class="text-5xl font-bold mb-6">About Me</h2>
@@ -54,13 +55,14 @@
           <p class="text-base text-[#4B5563]">
             A Computer Engineering graduate with a specialization in Web Development and Databases combines technical 
             expertise in front-end and back-end web development with the skills to design, implement, and manage robust
-             database systems. They play a vital role in creating scalable, user-friendly, and data-driven web solutions.
+            database systems. They play a vital role in creating scalable, user-friendly, and data-driven web solutions.
           </p>
         </div>
       </div>
     </div>
+  </section>
 
-    <section
+    <section id="latest-work"
       data-aos="fade-up"
       data-aos-delay="1000"
       data-aos-duration="1000"
@@ -137,7 +139,7 @@
       </div>
     </section>
 
-    <section
+    <section id="contact"
       data-aos="fade-up"
       class="w-full pt-16 px-6 lg:px-[133px] lg:px-16 flex flex-col md:flex-row md:justify-between md:items-start"
     >
